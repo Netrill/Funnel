@@ -11,5 +11,8 @@ export class Pagina1Component implements OnInit {
 
   ngOnInit(): void {
   }
+  ngAfterViewInit() {
+    $('.carousel').carousel();
+  }
 
 }

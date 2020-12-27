@@ -1,0 +1,37 @@
+#titolo {
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    width:auto;
+    height: 100px;
+    margin:0 auto;
+    text-align: center;
+    background-color: coral;
+    margin-top: 50px;
+}  
+#scritta {
+    margin-top: 100px;
+    
+}
+#griglia1 {
+    margin-top: 30px;
+    width:auto;
+    background-color: rgba(255, 127, 80, 0.568);
+    height: 50px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#griglia2 {
+    width:auto;
+    background-color: rgba(255, 127, 80, 0.568);
+    height: 50px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#carosel {
+    height: 500px;
+}
