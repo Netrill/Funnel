@@ -27,7 +27,7 @@
         </div>
     </div>
 </div>
-<div id="carousel">
+<div id="carousel"> 
   <ngb-carousel *ngIf="images">
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
@@ -58,7 +58,6 @@
     </ng-template>
   </ngb-carousel>
 </div>
-
 <div class="container">
   <form [formGroup]="heroForm" #formDir="ngForm">
     <div [hidden]="formDir.submitted">

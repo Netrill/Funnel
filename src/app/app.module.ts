@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { Pagina1Component } from './pagina1/pagina1/pagina1.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import {  NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     CommonModule,
     FormsModule,
-    ReactiveFormsModule     
+    ReactiveFormsModule  ,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

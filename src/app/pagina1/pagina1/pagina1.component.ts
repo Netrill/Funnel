@@ -10,7 +10,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 
 export class Pagina1Component implements OnInit {
-
+  images = ['/assets/a.jpeg','/assets/b.jpg','/assets/c.jpg'];
 
   hero = { name: '',email:'',cell:'' };
 
@@ -38,6 +38,6 @@ export class Pagina1Component implements OnInit {
 
   get email() { return this.heroForm.get('email'); }
 
-  images = ['/assets/a.jpeg','/assets/b.jpg','/assets/c.jpg'];
+  
 
 }
