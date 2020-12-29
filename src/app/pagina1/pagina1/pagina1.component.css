@@ -7,12 +7,9 @@
     margin:0 auto;
     text-align: center;
     background-color: coral;
-    margin-top: 50px;
+    margin-top: 30px;
 }  
-#scritta {
-    margin-top: 100px;
-    
-}
+ 
 #griglia1 {
     margin-top: 30px;
     width:auto;
@@ -32,6 +29,13 @@
     font-weight: bold;
     text-align: center;
 }
-#carosel {
-    height: 500px;
+#carousel img {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container {
+    color:red;
 }
