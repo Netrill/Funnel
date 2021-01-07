@@ -1,105 +1,166 @@
-<div id="titolo">
+<div class="pagina1">
+  <div class="dark-level">
     <div >
-        <p id="scritta">POWER STAR WORLD NETWORK MARKETING ITALIANO</p>
+        <p class="titolo">NETWORK MARKETING ITALIANO</p>
     </div>
-</div> 
-<div class="container">
-    <div id="griglia1" class="row">
-        <div class="col">
-           0 SPESE DI INGRESSO
-        </div>
-        <div class="col">
-           1000 PRODOTTI ITALIANI
-        </div>
-        <div class="col">
-           3 FORME DI GUADAGNO
-        </div>
-    </div>
-    <div id="griglia2" class="row">
-        <div class="col 4">
-            NO KIT INIZIALI
-        </div>
-        <div class="col 2">
-            NESSUN OBBLIGO DI MAGAZZINO
-        </div>
-        <div class="col 4">
-            NO VENDITA DIRETTA
-        </div>
-    </div>
-</div>
-<div id="carousel"> 
-  <ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[0]" alt="Random first slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[1]" alt="Random second slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[2]" alt="Random third slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </ng-template>
-  </ngb-carousel>
-</div>
-<div class="container">
-  <form [formGroup]="heroForm" #formDir="ngForm">
-    <div [hidden]="formDir.submitted">
-      <div class="cross-validation" [class.cross-validation-error]="heroForm.errors?.identityRevealed && (heroForm.touched || heroForm.dirty)">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input id="name" class="form-control"
-                formControlName="name" required >
-          <div *ngIf="name.invalid && (name.dirty || name.touched)"
-              class="alert alert-danger">
-            <div *ngIf="name.errors.required">
-              Nome obbligatorio
+    <div class="separatore"></div>
+    <div class="container">
+        <div id="griglia1" class="row">
+            <div class="col">
+              0 SPESE DI INGRESSO
             </div>
-            <div *ngIf="name.errors.minlength">
-              Minimo 4 caratteri
+            <div class="col">
+              1100 PRODOTTI ITALIANI
             </div>
-          </div>
+            <div class="col">
+              3 FORME DI GUADAGNO
+            </div>
         </div>
+        <div id="griglia2" class="row">
+            <div class="col">
+                NO KIT INIZIALI
+            </div>
+            <div class="col">
+                NESSUN OBBLIGO DI MAGAZZINO
+            </div>
+            <div class="col">
+                NO VENDITA DIRETTA
+            </div>
+        </div>
+    </div>
+    <video width="auto" height="auto" controls>
+      <source src="/assets/opportunita.mp4" type="video/mp4">
+    Il tuo Browser non sopporta questo video
+    </video>
+    <div class="separatore"></div>
+    <div id="presentazione">
+      <p>Noi non siamo un Network, noi siamo IL Network ! </p> 
+    </div>
 
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input id="email" class="form-control"
-                formControlName="email" required >
-          <div *ngIf="email.invalid && (email.dirty || email.touched)"
-              class="alert alert-danger">
-            <div *ngIf="email.errors.required">
-              E-mail obbligatoria
+    <div class="testo">   
+      <p>Siamo un' azienda italiana con sede a Roma, noi siamo POWER STAR WORLD. Nati a maggio 2019.</p>
+      <p>Secondi per fatturato fra le aziende di Network Marketing italiane !</p>
+    </div>
+    <div class="separatore"></div>
+    <div id="carousel"> 
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[2]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[3]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[4]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[5]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[6]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[7]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[8]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[9]" alt="Random third slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[10]" alt="Random third slide">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="separatore"></div>
+    <p class="testo info">Vuoi avere maggior informazioni sull' attività? </p>
+    <p class="testo info">Ti contatteremo solo una volta e potrai valutare se questa attività fa per te !</p>
+    <p class="testo info">Nel caso di riscontro negativo cancelleremo il tuo numero</p>
+    <div class="container">
+      <form [formGroup]="heroForm" #formDir="ngForm">
+        <div [hidden]="formDir.submitted">
+          <div class="cross-validation" [class.cross-validation-error]="heroForm.errors?.identityRevealed && (heroForm.touched || heroForm.dirty)">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input id="name" class="form-control"
+                    formControlName="name" required >
+              <div *ngIf="name.invalid && (name.dirty || name.touched)"
+                  class="alert alert-danger">
+                <div *ngIf="name.errors.required">
+                  Nome obbligatorio
+                </div>
+                <div *ngIf="name.errors.minlength">
+                  Minimo 4 caratteri
+                </div>
+              </div>
             </div>
-            <div *ngIf="email.errors.email">
-              Formato E-mail non valido.
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input id="email" class="form-control"
+                    formControlName="email" required >
+              <div *ngIf="email.invalid && (email.dirty || email.touched)"
+                  class="alert alert-danger">
+                <div *ngIf="email.errors.required">
+                  E-mail obbligatoria
+                </div>
+                <div *ngIf="email.errors.email">
+                  Formato E-mail non valido.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cell">Recapito telefonico</label>
+              <input id="cell" class="form-control"
+                    formControlName="cell" required >
+              <div *ngIf="cell.invalid && (cell.dirty || cell.touched)"
+                  class="alert alert-danger">
+                <div *ngIf="cell.errors.required">
+                  Numero di telefono obbligatorio
+                </div>
+                <div *ngIf="cell.errors.minlength">
+                  Numero di telefono non corretto
+                </div>
+              </div>
             </div>
           </div>
+          <button type="submit" class="btn btn-default"  (click)="inviaEmail()"
+                [disabled]="heroForm.invalid">Richiedi informazioni</button>
         </div>
+      </form>
+      <div class="submitted-message error" *ngIf="formDir.submitted">
+        <p>Dati correttamente inviati, verrai contattato presto.</p>
       </div>
-      <button type="submit" class="btn btn-default"
-             [disabled]="heroForm.invalid">Submit</button>
-      <button type="button" class="btn btn-default"
-             (click)="formDir.resetForm({})">Reset</button>
     </div>
-  </form>
-  <div class="submitted-message" *ngIf="formDir.submitted">
-    <p>Dati correttamente inviati, verrai contattato presto, {{ heroForm.value.name }}!</p>
-    <button (click)="formDir.resetForm({})">Add new hero</button>
-  </div>
+    <div id="footer"></div>
+  </div>  
 </div>

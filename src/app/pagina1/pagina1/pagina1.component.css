@@ -1,41 +1,162 @@
-#titolo {
+.pagina1 {
+    background-color:rgb(17, 27, 73);
+}
+
+.titolo {
     color: red;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
+    font-family: 'Courier New', monospace;
     width:auto;
-    height: 100px;
     margin:0 auto;
     text-align: center;
-    background-color: coral;
-    margin-top: 30px;
-}  
- 
-#griglia1 {
-    margin-top: 30px;
+    width: 50%;
+    background-color:rgb(30, 30, 110);
+    border-radius: 25px;
+} 
+
+.separatore {
+    margin-top: 10px;
+    background-color: #030d47;
     width:auto;
-    background-color: rgba(255, 127, 80, 0.568);
-    height: 50px;
-    color: orangered;
+    height:30px; 
+    border-radius: 25px;
+}
+.testo {
+    font-family: 'Courier New', monospace;
+    width: 70%; 
+    margin:0 auto;
+    text-align: center;
+    font-weight: bold;
+    background-color:rgb(30, 30, 110);
+    border-radius: 25px;
+     
+}
+ 
+ p {
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+ }
+ #presentazione p{
+    color: white;
+    width:auto;
+    height: auto;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+    background-color: rgb(30, 30, 110);
+    margin:0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#griglia1 {
+    padding: 0%;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    width:auto;
+    color: yellow;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    background-color: rgb(30, 30, 110);
+    border-radius: 25px;
+     
 }
 #griglia2 {
+    padding: 0%;
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
     width:auto;
-    background-color: rgba(255, 127, 80, 0.568);
-    height: 50px;
-    color: orangered;
+    color: yellow;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    background-color: rgb(30, 30, 110);
+    border-radius: 25px;
+    
+}
+.container {
+    color: black;
 }
 #carousel img {
-    margin-top: 30px;
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 600px;
+    height: 500px;
 }
-.container {
-    color:red;
+button {
+    color:black;
 }
+label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:yellow;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(30, 30, 110);
+    font-family: 'Courier New', monospace;
+}
+alert-danger{ 
+    width: 400px;
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color:black;
+    font-family: 'Courier New', monospace;
+}
+#info {
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(30, 30, 110);
+    font-size: 24px;
+    font-weight: bold;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: red;
+}
+#footer {
+    height: 100px;
+}
+.alert-danger {
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+video {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert {
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: yellow;
+} 
